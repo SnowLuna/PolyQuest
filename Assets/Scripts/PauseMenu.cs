@@ -8,7 +8,6 @@ public class PauseMenu : MonoBehaviour {
     public static bool gameIsPaused = false;
     public GameObject pauseMenuUI;
 
-	// Update is called once per frame
 	void Update () {
 		if (Input.GetKeyDown(KeyCode.Escape))
         {
@@ -19,6 +18,7 @@ public class PauseMenu : MonoBehaviour {
         }
 	}
 
+    //Disables the pause menu by hiding it, resumes time and changes the state of the game
     public void Resume()
     {
         pauseMenuUI.SetActive(false);
@@ -26,6 +26,7 @@ public class PauseMenu : MonoBehaviour {
         gameIsPaused = false;
     }
 
+    //Displays the pause menu, stops time and changes game state to indicate it is paused
     void Pause()
     {
         pauseMenuUI.SetActive(true);
@@ -35,7 +36,7 @@ public class PauseMenu : MonoBehaviour {
 
     public void LoadMenu()
     {
-        Time.timeScale = 1f;
+        Time.timeScale = 1f;    //Important to resume time
         SceneManager.LoadScene("Main_Menu");
     }
 
