@@ -1,5 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using UnityEngine.EventSystems;
 using UnityEngine;
 
 [RequireComponent(typeof(PlayerMotor))]
@@ -17,6 +16,10 @@ public class PlayerController : MonoBehaviour {
 	
 	void Update () {
         int rayMaxDistance = 100;
+
+        //Prevents movement when clicking on UI elements
+        if (EventSystem.current.IsPointerOverGameObject())
+            return;
 
         //Left Mouse Click
         if (Input.GetMouseButtonDown(0))
