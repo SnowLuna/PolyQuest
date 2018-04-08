@@ -37,6 +37,10 @@ ModelImporter:
     100058: Upper_Arm_R
     100060: Upper_Leg_L
     100062: Upper_Leg_R
+    100064: Body
+    100066: Shirt
+    100068: Shoes
+    100070: Pants
     400000: Armature
     400002: //RootNode
     400004: Chest
@@ -69,14 +73,30 @@ ModelImporter:
     400058: Upper_Arm_R
     400060: Upper_Leg_L
     400062: Upper_Leg_R
+    400064: Body
+    400066: Shirt
+    400068: Shoes
+    400070: Pants
     2100000: Material
+    2100002: Shoe
+    2100004: Shirt
+    2100006: Skin
+    2100008: Pants
     4300000: Cube
+    4300002: Shoes
+    4300004: Shirt
+    4300006: Body
+    4300008: Pants
     7400000: Default Take
     7400002: Idle
     7400004: Run
     7400006: Walk
     9500000: //RootNode
     13700000: Cube
+    13700002: Body
+    13700004: Shirt
+    13700006: Shoes
+    13700008: Pants
   externalObjects: {}
   materials:
     importMaterials: 1
