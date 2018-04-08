@@ -4060,7 +4060,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 127359c8b4e4b4947a218e1655d14258, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  defaultItems: []
+  defaultItems:
+  - {fileID: 11400000, guid: c21bc903293beb843bc3aca24243ca3d, type: 2}
   targetMesh: {fileID: 832207314}
 --- !u!1001 &1354265905
 Prefab:
