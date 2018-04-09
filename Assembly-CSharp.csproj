@@ -51,6 +51,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\CameraBillboard.cs" />
      <Compile Include="Assets\Scripts\CameraController.cs" />
      <Compile Include="Assets\Scripts\CharacterAnimator.cs" />
      <Compile Include="Assets\Scripts\ConvertToRegularMesh.cs" />
@@ -59,6 +60,8 @@
      <Compile Include="Assets\Scripts\Inventory\Inventory.cs" />
      <Compile Include="Assets\Scripts\Inventory\InventorySlot.cs" />
      <Compile Include="Assets\Scripts\Inventory\InventoryUI.cs" />
+     <Compile Include="Assets\Scripts\Items\EnergyDrinkBlue.cs" />
+     <Compile Include="Assets\Scripts\Items\EnergyDrinkGreen.cs" />
      <Compile Include="Assets\Scripts\Items\Equipment.cs" />
      <Compile Include="Assets\Scripts\Items\Item.cs" />
      <Compile Include="Assets\Scripts\Items\ItemPickUp.cs" />
@@ -68,6 +71,9 @@
      <Compile Include="Assets\Scripts\PauseMenu.cs" />
      <Compile Include="Assets\Scripts\PlayerController.cs" />
      <Compile Include="Assets\Scripts\PlayerMotor.cs" />
+     <Compile Include="Assets\Scripts\Stats\CharacterStats.cs" />
+     <Compile Include="Assets\Scripts\Stats\PlayerStats.cs" />
+     <Compile Include="Assets\Scripts\Stats\Stat.cs" />
      <Compile Include="Assets\Scripts\WaterPlaneGen.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />

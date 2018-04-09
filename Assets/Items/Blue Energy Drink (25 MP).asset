@@ -8,9 +8,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 56773443d505bc6438614ff3fa915c17, type: 3}
-  m_Name: Energy_Drink_Blue
+  m_Script: {fileID: 11500000, guid: 72d3a81641d1a8247911bbe8220d856a, type: 3}
+  m_Name: Blue Energy Drink (25 MP)
   m_EditorClassIdentifier: 
-  name: Energy Drink (Blue)
+  name: Blue Energy Drink
   icon: {fileID: 21300000, guid: 46f020006f9285040b3200c66c3b0a6c, type: 3}
   isDefaultItem: 0
+  manaValue: 25

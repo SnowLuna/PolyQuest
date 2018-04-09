@@ -41,6 +41,7 @@ ModelImporter:
     100066: Shirt
     100068: Shoes
     100070: Pants
+    100072: Underwear
     400000: Armature
     400002: //RootNode
     400004: Chest
@@ -77,16 +78,19 @@ ModelImporter:
     400066: Shirt
     400068: Shoes
     400070: Pants
+    400072: Underwear
     2100000: Material
     2100002: Shoe
     2100004: Shirt
     2100006: Skin
     2100008: Pants
+    2100010: Underclothes
     4300000: Cube
     4300002: Shoes
     4300004: Shirt
     4300006: Body
     4300008: Pants
+    4300010: Underwear
     7400000: Default Take
     7400002: Idle
     7400004: Run
@@ -97,6 +101,7 @@ ModelImporter:
     13700004: Shirt
     13700006: Shoes
     13700008: Pants
+    13700010: Underwear
   externalObjects: {}
   materials:
     importMaterials: 1
