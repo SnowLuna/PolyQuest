@@ -1,9 +1,8 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class ConvertToRegularMesh : MonoBehaviour {
 
+    //Converts Skinned Mesh into Mesh
     [ContextMenu("Convert to regular mesh")]
     void Convert()
     {

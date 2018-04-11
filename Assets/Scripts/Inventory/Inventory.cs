@@ -1,5 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 
 public class Inventory : MonoBehaviour {
@@ -22,7 +21,7 @@ public class Inventory : MonoBehaviour {
     public OnItemChanged onItemChangedCallBack;
 
     public List<Item> items = new List<Item>();
-    public int space = 20;
+    public int space = 20;  //Not necessary to give value in code but easier to remember
 
     //Adds item to inventory
     public bool Add (Item item)

@@ -7,6 +7,7 @@ public class InventorySlot : MonoBehaviour {
     public Button removeButton;
     Item item;
 
+    //Adds an item to the slot, makes icons visible
     public void AddItem(Item newItem)
     {
         item = newItem;
@@ -16,6 +17,7 @@ public class InventorySlot : MonoBehaviour {
         removeButton.interactable = true;
     }
 
+    //Disables the remove icon, its clickability and the item icon
     public void ClearSlot()
     {
         item = null;
@@ -25,11 +27,13 @@ public class InventorySlot : MonoBehaviour {
         removeButton.interactable = false;
     }
 
+    //Removes the item from the inventory
     public void OnRemoveButton()
     {
         Inventory.instance.Remove(item);
     }
 
+    //Called on slot click
     public void UseItem()
     {
         if (item != null)

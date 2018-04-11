@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class EquipmentManager : MonoBehaviour {
 
@@ -31,6 +29,7 @@ public class EquipmentManager : MonoBehaviour {
         EquipDefaultItems();
     }
 
+    //Equips the item to the character and transforms the mesh of the character to prevent clipping issue
     public void Equip(Equipment newItem)
     {
         int slotIndex = (int) newItem.equipSlot;
@@ -49,6 +48,7 @@ public class EquipmentManager : MonoBehaviour {
         currentMeshes[slotIndex] = newMesh;
     }
 
+    //Unequip item, returns it to the inventory, the opposite of equip
     public Equipment Unequip(int slotIndex)
     {
         if(currentEquipment[slotIndex] != null)
@@ -69,6 +69,7 @@ public class EquipmentManager : MonoBehaviour {
         return null;
     }
 
+    //Unequip all items
     public void UnequipAll()
     {
         for(int i = 0; i < currentEquipment.Length; i++)
@@ -90,6 +91,7 @@ public class EquipmentManager : MonoBehaviour {
             targetMesh.SetBlendShapeWeight((int)blendShape, weight);
     }
 
+    //Default equipment like undergarnment or clothing. Appears when no equipment used.
     void EquipDefaultItems()
     {
         foreach(Equipment item in defaultItems)
