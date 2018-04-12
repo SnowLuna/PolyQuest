@@ -17,6 +17,8 @@ Présentement, à la deuxième présentation, le projet comporte une ile en plei
 retrouve un personnage qui s'est échoué. La petite ile comporte plusieurs types de terrains et des objets ramassables
 par le joueur. 
 
+![Image de l'ile sans le personnage](GitImages/MainIsland.png)
+
 L'objectif était de mettre en place un prototype comportant les éléments principaux afin de pourvoir continuer le 
 développement facilement. Plusieurs aspects du code et des ressources, on étés pensés et crées avec cette idée de réutilisation
  (*reusable assets*).
@@ -27,6 +29,8 @@ La direction que le jeu **devait prendre / va prendre** est la suivante: le mond
  la caméra, du personnage, l'interaction avec les objets et les personnage non-joueur (*NPC*), utiliser son inventaire, le système de combat, etc.
  Une fois le tutoriel complété, le joueur aura ramassé assez de matériaux afin de réparer son bateau et d'explorer le reste de l'océan.
 
+![Une vue du joueur et de son inventaire](GitImages/InGameInventory.png)
+ 
 ## Contenu du dépot et fonctionnement
 
 Le dépot git contient le projet Unity du jeu. Par défaut, Unity créer plusieurs dossier dans lesquels il sauvegarde les données générées du projet.
@@ -46,6 +50,7 @@ Une fois l'éxécutable disponible et lancée, nous nous retrouvons sur le menu 
 Si l'on clique sur *Play*, le jeu chargera une nouvelle scène, celle d'un bonhomme sur une ile. Ici, nous avons plusieurs options:
 * **Mouvement** (Le déplacement s'effectue avec le clique gauche de la souris)
 * **L'interaction avec les objets** (Clique droit de la souris)
+* **Zoom in et zoom out la caméra** (La molette de la souris)
 * **La rotation de la caméra** (Les flèches du clavier ou les touches **WASD**)
 * **La touche I** (Ouvre et ferme l'inventaire)
 * **La touche U** (Déséquipe tout les équipement sur le joueur et le mets dans l'inventaire)
